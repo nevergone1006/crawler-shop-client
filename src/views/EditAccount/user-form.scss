@@ -1,0 +1,21 @@
+.from-user.card-user {
+  .card-user-submit {
+    text-align: right;
+    button {
+      float: none;
+    }
+  }
+  .card-user-cancel {
+    text-align: left;
+
+    button {
+      float: none;
+    }
+  }
+
+  label {
+    b {
+      color: red;
+    }
+  }
+}

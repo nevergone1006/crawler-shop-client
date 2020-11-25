@@ -1,0 +1,25 @@
+.shop-list.content {
+  padding-bottom: 0;
+  .edit-header {
+
+    .btn {
+      width: 150px;
+      margin-top: 0;
+      margin-right: 12px;
+      float: right;
+    }
+
+    .total-text {
+      display: block;
+      float: left;
+      margin-top: 10px;
+    }
+    
+  }
+
+  .shop-list-body {
+    overflow-x: overlay;
+    overflow-y: hidden;
+    border-top: 1px solid rgba(0,0,0,.1);
+  }
+}

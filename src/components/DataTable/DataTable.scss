@@ -1,0 +1,37 @@
+.bootstrap-table-custom {
+  .react-bootstrap-table {
+    overflow: auto;
+    height: calc(100vh - 260px);
+
+    .table > thead > tr > th {
+      border: 1px solid #dee2e6;
+    }
+    .table > tbody > tr {
+      cursor: pointer;
+    }
+  }
+
+  .react-bootstrap-table-pagination {
+    margin: 0;
+
+    >div {
+      // display: none;
+
+      &.react-bootstrap-table-pagination-list {
+        .pagination{
+          margin-bottom: 11px;
+          margin-top: 11px;
+          justify-content: flex-end;
+          .page-link {
+            color: #51cbce;
+          }
+          .page-item.active .page-link {
+            color: #fff;
+            background-color: #51cbce;
+            border-color: #51cbce;
+          }
+        }
+      }
+    }
+  }
+}

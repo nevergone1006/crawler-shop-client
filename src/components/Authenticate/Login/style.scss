@@ -1,0 +1,73 @@
+.login-wrapper {
+  background: white;
+  max-width: 40rem;
+  margin: 0 auto;
+
+  .form-group{
+    margin-bottom: 25px;
+    height: 70px;
+
+    label {
+      float: left;
+      padding-left: 5px;
+
+      b {
+        color: red;
+      }
+    }
+
+    .form-control {
+      height: 45px;
+      min-height: 45px;
+      padding: 8px 15px;
+    }
+    .invalid-feedback {
+      text-align: left;
+      padding-left: 5px;
+    }
+  }
+
+  .btn {
+    margin: 0;
+    width: inherit;
+    margin-bottom: 15px;
+
+    .fa {
+      font-size: 20px;
+      float: left;
+    }
+
+    .social-title {
+      line-height: 21px;
+    }
+  }
+
+  .btn.facebook-button {
+    background-color: #4267b2;
+  }
+
+  .action-group {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+  }
+
+  form.av-invalid button.btn.btn-primary {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    pointer-events: none;
+  }
+
+  .text-danger {
+    font-weight: bold;
+  }
+
+  @media screen and (max-width: 768px) {
+    max-width: 100%;
+    width: 100%;
+
+    .card {
+      width: 100%;
+    }
+  }
+}
